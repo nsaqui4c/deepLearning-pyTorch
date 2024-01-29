@@ -35,8 +35,22 @@
 ![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/55548268-33e7-41e9-8289-d5af9945dcc9)
 ![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/91a601f3-6b2e-4829-86ed-6e11ec6783a2)
 
-## MAtrix multiplication
+## Matrix multiplication
 ![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/f20a4468-e445-413e-9f81-42d3e039bd28)
 ![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/6d662023-42da-4148-8833-c12ea36a611b)
+
+
+## Softmax
+* Softmax function has property that after transformation all the values are between 0 and 1 and there sum is equal to 1
+```
+z={1,2,3}
+e^z^ = e^1^ ,e^2^ , e^3^ = {2.72,7.39,20.01}
+sum of e^z^ = {{2.72 + 7.39 +20.01}}=30.19
+sigma = 2.72/30.19   ,   7.39/30.19     , 20.01/30.19  =  {.09 , .24 , .67}
+
+SUM OF SIGMA WILL ALWAYS BE 1
+```
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/caf9a96c-b79d-4b9b-b616-8624f5d09fe9)
+
 
 
