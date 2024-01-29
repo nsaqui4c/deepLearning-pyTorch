@@ -35,3 +35,8 @@
 ![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/55548268-33e7-41e9-8289-d5af9945dcc9)
 ![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/91a601f3-6b2e-4829-86ed-6e11ec6783a2)
 
+## MAtrix multiplication
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/f20a4468-e445-413e-9f81-42d3e039bd28)
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/6d662023-42da-4148-8833-c12ea36a611b)
+
+
