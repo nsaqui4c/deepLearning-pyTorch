@@ -30,4 +30,8 @@
 
 
 
+## Dot product
+* A single number represents the comanalites between two objects (vector, matrices, tensor, sigal, images)
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/55548268-33e7-41e9-8289-d5af9945dcc9)
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/91a601f3-6b2e-4829-86ed-6e11ec6783a2)
 
