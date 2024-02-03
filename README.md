@@ -44,13 +44,51 @@
 * Softmax function has property that after transformation all the values are between 0 and 1 and there sum is equal to 1
 ```
 z={1,2,3}
-e^z^ = e^1^ ,e^2^ , e^3^ = {2.72,7.39,20.01}
-sum of e^z^ = {{2.72 + 7.39 +20.01}}=30.19
+e^z = e^1 ,e^2 , e^3 = {2.72,7.39,20.01}
+sum of e^z = {{2.72 + 7.39 +20.01}}=30.19
 sigma = 2.72/30.19   ,   7.39/30.19     , 20.01/30.19  =  {.09 , .24 , .67}
 
 SUM OF SIGMA WILL ALWAYS BE 1
 ```
 ![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/caf9a96c-b79d-4b9b-b616-8624f5d09fe9)
+```
+import numpy as np
+import torch
+import torch.nn as nn
+import matplotlib.pyplot as plt
 
+# USING numpy
+z= np.random.randint(-5,high=15, size=35)
+print(z)
+num = np.exp(z)
+sum = np.sum(num)
+sigmas = num/sum
+
+
+#using Torch
+## instance of softmax class
+softfun = nn.Softmax(dim=0)
+## Converting z to tensor and finding softmax
+sigmaT = softfun( torch.Tensor(z) )
+
+plt.plot(z,sigmaT,'ko')
+##plt.plot(z,sigmas,'ko')
+plt.ylabel('proablility value')
+plt.xlabel('random Z value')
+plt.title('$\sum\sigma$ = %g' %np.sum(sigmas))
+plt.show()
+```
+## Logarithm
+* Innverse of natural exponential (e)
+* Log is monotomoc in nature -> log(x) increases when x increases and decreases with x also
+* sin(x) in non monotomic
+* profit of using log is that:
+  * We are dealing with very small number in ML (probability)
+  * as x increases value of log(x) increases exponentially for small number, then the gap decreases for large number
+  * computer have issue while dealing with small number
+  * converting to log(x) make the calculation easy
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/18a6d63a-1fb3-498c-89e9-1b6deaf31754)
+
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/1139d496-91fb-4422-bc87-8029b2f94b57)
 
 
