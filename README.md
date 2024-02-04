@@ -106,6 +106,11 @@ plt.show()
 * Cross entropy -> proablity of a picture being a cat given that it is a cat  -> p=1, q=proability of it being a cat by machine
 ![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/f8515d1a-8cea-49d6-a949-4bf26b19af2b)
 
+#### Entropy
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/ad5db056-0e30-44b3-9bc8-488d75def7dd)
+
+#### Cross Entropy
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/9cae8fc7-234b-4b3b-9fd2-bd5c86a926b1)
 
 
 
