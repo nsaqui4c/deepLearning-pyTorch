@@ -91,4 +91,22 @@ plt.show()
 
 ![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/1139d496-91fb-4422-bc87-8029b2f94b57)
 
+## Entropy and cross-entropy
+
+* In ML entropy is max when probability is 0.5  -> anything can happen
+* entropy is lease when probability is either 1 or 0
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/60a448bd-afc6-4b71-996e-8009ffd56c9c)
+
+* Formula for entropy -> summation of ( probability of all event * log<sub>2</sub> of  probability of all event )
+* for coin toss n=2 -> summation of probability of head and tails
+* bits -> if we use base 2
+* nats -> if we use natural log
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/9fc5aa89-fc4c-4533-8b22-4110fa99f5eb)
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/1fde8804-f466-4b08-b49a-8e1d52c1a529)
+* Cross entropy -> proablity of a picture being a cat given that it is a cat  -> p=1, q=proability of it being a cat by machine
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/f8515d1a-8cea-49d6-a949-4bf26b19af2b)
+
+
+
+
 
