@@ -113,5 +113,14 @@ plt.show()
 ![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/9cae8fc7-234b-4b3b-9fd2-bd5c86a926b1)
 
 
+## min/max/argmin/argmax
+* min -> minimum from an vector
+* max- max from an array
+* argminv -> index of min
+* arg max -> index of max
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/4e01daa8-9b06-4fad-8da5-2a2a5be6dca6)
 
-
+* For array
+  * axis=0  -> will give you minimum of each column
+  * axis=1  -> will give you min of each row
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/c4c179c9-e16c-483f-8c79-21886ceeedef)
