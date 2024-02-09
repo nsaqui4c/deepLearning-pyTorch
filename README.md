@@ -124,3 +124,16 @@ plt.show()
   * axis=0  -> will give you minimum of each column
   * axis=1  -> will give you min of each row
 ![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/c4c179c9-e16c-483f-8c79-21886ceeedef)
+
+## Mean and variance
+* purpose of mean is to find the place where data is concentrated  
+  * means works for normally distributed data, but fails for other distributed data
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/b95f5c44-fbce-41f2-80d1-4e273cd7a985)
+
+* Variance - width of distribution
+* variance is similar as stadard deviation
+* Standard deviation is square root of variance
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/b67830b5-be76-48a3-8a24-8733d3e083a1)
+![image](https://github.com/nsaqui4c/deepLearning-pyTorch/assets/45531263/888b9e97-20d3-4207-a2a4-410c3a4c210b)
+
+
